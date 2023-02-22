@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/mobile-first.css">
+
+    <!-- Fonts -->
+
+    <!-- Icons -->
+</head>
+<body>
+    <main class="container">
+        <section class="section-img">
+            <img src="assets/img/undraw_credit_card_payments_re_qboh.svg" alt="Artistic image of a person holding a card">
+        </section>
+        <section class="section-form">
+            <h1>Sign up</h1>
+            <form action="#">
+                <div class="input-box">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" placeholder="Enter your first name" required autocapitalize="">
+                </div>
+                <div class="input-box">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" placeholder="Enter your last name" required>
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                </div>
+                <div class="input-box">
+                    <label for="cell-phone-number">Cell phone number</label>
+                    <input type="text" id="cell-phone-number" placeholder="+351 XXX XXX XXX" required>
+                </div>
+                <div class="password-box">
+                    <label for="password">Password</label>
+                    <input type="text" id="password" placeholder="Enter password" required>
+                </div>
+                <div class="input-box">
+                    <label for="confirm-password">Confirm password</label>
+                    <input type="text" id="confirm-password" placeholder="Confirm your password" required>
+                </div>
+                <div class="gender-group">
+                    <h3>Gender</h3>
+
+                    <div class="gender-input">
+                        <input type="radio" name="gender" id="gender_female">
+                        <label for="gender_female">Female</label>
+                    </div>
+                    <div class="gender-input">
+                        <input type="radio" name="gender" id="gender_male">
+                        <label for="gender_male">Male</label>
+                    </div>                    
+                    <div class="gender-input">
+                        <input type="radio" name="gender" id="gender_other">
+                        <label for="gender_other">Other</label>
+                    </div>                    
+                    <div class="gender-input">
+                        <input type="radio" name="gender" id="gender_not_refer">
+                        <label for="gender_not_refer">Does not refer</label>
+                    </div>
+                </div>
+
+
+                <div class="register-button">
+                    <input type="submit" value="Register">
+                </div>
+            </form>
+                
+
+        </section>
+    </main>
+    
+</body>
+</html>
