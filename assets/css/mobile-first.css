@@ -6,3 +6,46 @@
     box-sizing: content-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #B4B5F1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.212);
+}
+
+.section-img {
+    width: 50%;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F1DBB9;
+}
+
+.section-img img{
+    width: 100%;
+}
+
+.section-form {
+    background-color: white;
+
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem;
+}
