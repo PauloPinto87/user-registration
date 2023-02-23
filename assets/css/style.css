@@ -124,7 +124,7 @@ header h1{
 }
 
 .register-button input {
-    width: 100%;
+    width: 90%;
     margin-top: 2.5rem;
     border: none;
     background-color: #6c63ff;
@@ -161,12 +161,17 @@ header h1{
         width: 90%;
         height: auto;
     }
+    .section-form {
+        padding: 0.5rem;
+    }
     .input-group {
         flex-direction: column;
         overflow-y: scroll;
         flex-wrap: nowrap;
-        max-height: 10rem;
-        padding-right: 3rem;
+        max-height: 12rem;
+        padding: 0 2rem 0 1rem;
+        margin-bottom: 1rem;
+        box-shadow: 1px 1px 6px #0000003c;
     }
     .gender-group {
         flex-direction: column;
