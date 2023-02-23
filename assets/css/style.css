@@ -22,6 +22,8 @@ main {
     height: 80vh;
     display: flex;
     box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.212);
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .section-img {
@@ -179,5 +181,10 @@ header h1{
     .gender-box-input {
         margin-top: 0.5rem;
     }
+    .register-button input {
+        margin-top: 1.0rem;
+        margin-bottom: 1.0rem;
+    }
+
 }
 
